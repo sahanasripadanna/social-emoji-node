@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/sahanasripadanna/social-emoji-node/issues"
   },
-  "homepage": "https://github.com/sahanasripadanna/social-emoji-node#readme"
+  "homepage": "https://github.com/sahanasripadanna/social-emoji-node#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^7.5.2",
+    "firebase-admin": "^8.8.0"
+  }
 }
